@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+   
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4472/4472584.png">
+    <style>
+        *{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    background-color: gainsboro;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child1{
+    
+    height: 50px;
+    width: 40px;
+}
+    
+.child2{
+    
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.child3{
+    
+    height: 50px;
+    width: 400px;
+}
+img{
+    height: 50px;
+    width: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parent>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS for form*/
+
+.form-holder{
+  
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: grey ;
+    
+}
+
+.form-items{
+    background-color: bisque;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 5px 30px;
+  
+}
+form{
+    width: 400px;
+    background-color: azure;
+    padding: 5px 30px;
+    margin: 5px 30px;
+    text-align: center;
+    
+}
+label{
+    padding: 5px 10px;
+}
+
+.form-items>button{
+    width: 80%;
+    background-color: bisque;
+    color: black;
+    height: 50px;
+    border-radius: 10%;
+    border:2px solid black;
+    font-size: larger;
+}
+.gender-block{
+    background-color: bisque;
+    padding: 10px 20px;
+    margin: 5px 30px;
+}
+.child3>a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: lightblue;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+<div class="child1">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADPz89LS0uWlpb39/eCgoKQkJCxsbH29vZiYmI4ODh0dHTX19empqbFxcXr6+sQEBDh4eEbGxu7u7s0NDR6enpXV1egoKDJyclvb28ODg6IiIhcXFwfHx8ZGRnwNjATAAACZUlEQVR4nO3dCW7CMBCFYRdIw75vbSm9/y2rqKgUVRo72NJoxv93gveUkGBj7BAAAAAAAAAAAAAAAAAAoAKrdjq0Y9qu+tVbH1/sOa7TC7baYZ/UJvZrZtpJnzZrkgputHNm2KRUPGinzHKIF3zVzpjpNVZwq50w2zbScKodMNtULjjRzlfARGw41o5XwFhsONeOV8BcbGj3ZX83Extqpyui8oY77XQFXMWGJ+14BZzEhlbHTX/JY6iBdrwCFmJDD48auWBYaufLtow0NP803cUKhoV2xEyRT6H9+zR6j3bO2ikznFMKhrDSzvm05GnhxuYgap40l3izHlmbcpuNekx53y7kdmDHts/lAwAAAAAAAAAAxjRvy5Edy7e+P1zsh9q/JfU23PfoN7hqx33KdZBa0O5i9ugy9h+f2jkzfKYUfNdOmeU9XtD6Sm95lXfwsFhfXqofwkU7YLZLpKF2vgLkgnYXC93Jy4bsvgrv5JeivS9r/w3Fhh/a8QrYiA210xVR+TX0/zn0/yz1/z708KiRC1bwvdT+2CI6JeV+fFjBGL+CeRrLT5vEubYK5kuD/znvjvffLQAAAAAAAAAAgCHO94myt9fXoddeXxOj+7XFFkD/srtsKHHPPff7Jrrf+9L//qVf2hEzRfegtX2PdmL3qXa+AuSC/vfz9r8nu/999a3v5t2Rn6ba6YqovKH/c2ZsDpseyWcFWV/l3ZFXettfqh/9I7D7c9cqODvP/H+7EhazW5tke5RwhmVoLI+Bk84h9X+WbLA7hko9DzhUcKZzx/m53AAAAAAAAAAAAAAAAABg0zfn21Nf0tdOJAAAAABJRU5ErkJggg==" alt="">
+</div>
+
+<div class="child3">
+    <ul type="none">
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">PRODUCTS</a></li>
+        <li><a href="">HELP</a></li>
+    </ul>
+</div>
+    </div>
+
+    <div class="form-holder">
+          <form action="">
+            <h1>SIGNUP PAGE</h1>
+            <hr>
+        <div class="form-items">
+                <label for="username">USERNAME</label>
+                <input type="text" id="username" >
+        </div>
+        <div class="form-items">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password">
+        </div>
+        <div class="form-items">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form-items">
+            <label for="phone">PHONE</label>
+            <input type="tel" id="phone">
+        </div>
+        <div class="form-items">
+            <label for="dob">DOB</label>
+            <input type="date" id="dob">
+        </div>
+        <div class="gender-block">
+            <label for="gender">GENDER</label>
+            Male <input type="radio" class="in" name="gender">
+            Female <input type="radio"class="in" name="gender">
+        </div>
+        <div class="form-items">
+            <button>REGISTER</button>
+        </div>
+        <a href="C:\Users\ANANYA\Desktop\Web Tech\LoginPage.html">Already have an account?</a>
+
+          </form>
+    </div>
+    
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66ad11a21601a2195ba01d4c/1i4a0ppjn';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+
+
+    
+</body>
+</html>
